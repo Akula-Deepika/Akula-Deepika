@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content=""width= device-width, initial-scale="1.0">
+        <title>Table</title>
+    </head>
+      <body>
+        <style>
+            th,td,table{
+              border:1px solid red;
+              border-collapse:collapse; 
+              padding:30px;
+            }
+        </style>
+        <table>
+            <colgroup>
+               <col span="1" style="background-color: rgb(33, 224, 224);">
+            </colgroup>
+            <caption>TABLE</caption>
+            <thead>
+            <tr>
+                <th >S.No</th>      
+                <th width="500px">Name</th>
+                <th>Course</th>
+            </tr>
+            </thead>
+
+            <tbody >
+            <tr>
+                <td rowspan="2">1</td>
+                <td>Deepika</td>
+                <td>FS</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Naga</td>
+                <td>FS</td>
+            </tr>
+        </tbody>
+        </table>
+        </body>
+        </html>
